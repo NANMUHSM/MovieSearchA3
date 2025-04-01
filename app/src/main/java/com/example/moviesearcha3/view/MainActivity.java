@@ -65,5 +65,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // tab logic
+        binding.favoriteTabBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,FavoriteMovieActivity.class);
+            startActivity(intent);
+        });
+        binding.searchTabBtn.setOnClickListener(v -> {
+
+        });
+
     }
 }

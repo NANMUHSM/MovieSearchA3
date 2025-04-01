@@ -5,4 +5,8 @@
     <string name="password_hint">Password</string>
     <string name="login_button">Login</string>
     <string name="register_words">Don\'t have an account? Register</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="favorite_title">Favorite Movies</string>
+
 </resources>
