@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MovieSearchA3</string>
+    <string name="login_text">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_words">Don\'t have an account? Register</string>
 </resources>
