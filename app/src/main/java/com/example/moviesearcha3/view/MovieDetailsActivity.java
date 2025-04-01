@@ -81,8 +81,9 @@ public class MovieDetailsActivity extends AppCompatActivity {
             // write to firestore
             FirebaseFirestore.getInstance()
                     .collection("favorites")
-                    .add(favoriteMovie)
-                    .addOnSuccessListener(documentReference -> {
+                    .document(currentMovie[0].getImdbID())
+                    .set(favoriteMovie)
+                    .addOnSuccessListener(a -> {
                         Toast.makeText(this,"Added to Favorite",Toast.LENGTH_SHORT).show();
                     })
                     .addOnFailureListener(e -> {
