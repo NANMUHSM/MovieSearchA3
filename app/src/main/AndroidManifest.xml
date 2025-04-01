@@ -27,6 +27,8 @@
 
         <activity android:name=".view.MainActivity"/>
         <activity android:name="com.example.moviesearcha3.view.MovieDetailsActivity"/>
+        <activity android:name=".view.RegisterActivity"/>
+
     </application>
 
 </manifest>

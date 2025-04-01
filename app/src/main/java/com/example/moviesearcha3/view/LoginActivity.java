@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
                     if(task.isSuccessful()){
                         Toast.makeText(this,"Login successful",Toast.LENGTH_SHORT).show();
                         // after successful login to main page
-                        startActivity(new Intent(this, Movie.class));
+                        startActivity(new Intent(this, MainActivity.class));
                         finish();
                     }else {
                         Toast.makeText(this,"Login Failed: "+task.getException().getMessage(),Toast.LENGTH_LONG).show();
